@@ -3,6 +3,7 @@
 
     <!-- Specify some standard inertial calculations https://en.wikipedia.org/wiki/List_of_moments_of_inertia -->
     <!-- These make use of xacro's mathematical functionality -->
+   
 
     <xacro:macro name="inertial_sphere" params="mass radius *origin">
         <inertial>
@@ -35,6 +36,5 @@
                     izz="${(1/2) * mass * (radius*radius)}" />
         </inertial>
     </xacro:macro>
-
 
 </robot>
