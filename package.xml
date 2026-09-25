@@ -3,8 +3,8 @@
 <package format="3">
   <name>my_bot</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="my_email@email.com">MY NAME</maintainer>
+  <description>Differential-drive robot description (URDF/xacro) with Gazebo simulation and RViz2 views</description>
+  <maintainer email="sschalla10@gmail.com">Challa Santhosh</maintainer>
   <license>TODO: License declaration</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
